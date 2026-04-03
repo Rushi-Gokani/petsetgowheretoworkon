@@ -1,7 +1,7 @@
 {% liquid
   assign blog = section.settings.blog
   assign article_limit = section.settings.article_limit
-  assign highlight_color = section.settings.highlight_color | default: '#D4241B'
+  assign highlight_color = section.settings.highlight_color | default: '#F48F01'
 
   assign has_articles = false
   if blog != blank and blog.articles_count > 0
@@ -402,7 +402,7 @@
 
   .latest-blog-highlights__nav-btn:hover {
     background: var(--latest-blog-highlight-color);
-    color: #FFF5D9;
+    color: #F48F01;
     border-color: transparent;
     box-shadow: 0 10px 20px rgb(0 0 0 / 0.15);
   }
@@ -714,7 +714,7 @@
       "type": "color",
       "id": "highlight_color",
       "label": "Accent color",
-      "default": "#D4241B"
+      "default": "#F48F01"
     },
     {
       "type": "select",

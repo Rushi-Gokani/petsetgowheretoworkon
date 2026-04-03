@@ -1,8 +1,8 @@
 /* Our Story Mission Section Styles */
 
 .our-story-mission {
-  --primary-orange: #D4241B;
-  --primary-orange-hover: #b51f17;
+  --primary-orange: #F48F01;
+  --primary-orange-hover: #d67d01;
   --text-dark: #2A1E5C;
   --text-gray: #2A1E5C;
   --social-proof-yellow: #F3E8CC;
@@ -72,13 +72,13 @@
   transition: background-color 0.3s ease, transform 0.2s ease;
   border: none;
   cursor: pointer;
-  box-shadow: 0 2px 4px rgba(212, 36, 27, 0.3);
+  box-shadow: 0 2px 4px rgba(244, 143, 1, 0.3);
 }
 
 .our-story-mission__button:hover {
   background: var(--primary-orange-hover);
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(212, 36, 27, 0.4);
+  box-shadow: 0 4px 8px rgba(244, 143, 1, 0.4);
 }
 
 .paw-icon {
